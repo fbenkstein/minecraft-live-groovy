@@ -1,0 +1,14 @@
+name: LiveGroovy
+version: 0.1.0
+main: com.frank.livegroovy.LiveGroovyPlugin
+api-version: '1.21'
+author: frank
+commands:
+  groovy:
+    description: Manage LiveGroovy scripts
+    usage: /groovy reload|list|run <script>
+    permission: livegroovy.admin
+permissions:
+  livegroovy.admin:
+    description: Manage LiveGroovy scripts
+    default: op
