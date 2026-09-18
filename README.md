@@ -58,3 +58,7 @@ commands.register("redsword") { sender, args ->
 ```
 
 See [AGENTS.md](AGENTS.md) for Adventure/classloader import and typing constraints to know about when writing scripts.
+
+## License
+
+[MIT-0](LICENSE) — do whatever you want with this.
